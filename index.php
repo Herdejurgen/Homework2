@@ -7,7 +7,7 @@
   </head>
   
   <body>
-<!--     <?php require_once(“header.php”); ?>  -->
+    <?php include(“header.php”); ?>
     <div class="container-fluid">
               
       <div class="position-absolute top start">
