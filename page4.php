@@ -10,9 +10,15 @@
   <body>
     <?php include'header.php'; ?>
     <div class="container-fluid">
-      <h2>I like these spinners!</h2>
+      <h2>The color of the spinner is randomly determined!</h2>
+      <?php
+        function PickAColor(){
+            $x = rand(0,255);
+            return $x;
+        }
+      ?>
       <div class="row-2">
-        <div class="spinner-border text-primary" role="status">
+        <div style="color:rgb(<?PickAColor();?>,<?PickAColor();?>,<?PickAColor();?>)" class="spinner-border" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
         <div class="spinner-border text-secondary" role="status">
