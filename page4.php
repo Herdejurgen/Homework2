@@ -18,7 +18,8 @@
         }
       ?>
       <div class="row-2">
-        <div style="color:rgb(<?PickAColor();?>,<?PickAColor();?>,<?PickAColor();?>)" class="spinner-border" role="status">
+      <h1 style = "color:rgb(<?PickAColor();?>, <?PickAColor();?>, <?PickAColor();?>);">GOOOOOD Morning</h1>
+        <div class="spinner-border" style="color:rgb(<?PickAColor();?>,<?PickAColor();?>,<?PickAColor();?>)" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
         <div class="spinner-border text-secondary" role="status">
