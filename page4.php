@@ -21,7 +21,7 @@
         $v3 = PickAColor();
       ?>
       <div class="row-2">
-      <h1 style = "color:rgb(<?php PickAColor(); ?>, <?php PickAColor(); ?>, <?php PickAColor(); ?>);">GOOOOOD Morning</h1>
+      <h1 style = "color:rgb( , ,);">GOOOOOD Morning</h1>
         <div class="spinner-border" style="color:rgb(<?PickAColor();?>,<?PickAColor();?>,<?PickAColor();?>)" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
