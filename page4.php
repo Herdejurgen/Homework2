@@ -10,19 +10,21 @@
   <body>
     <?php include'header.php'; ?>
     <div class="container-fluid">
-      <h2>The color of the spinner is randomly determined!</h2>
+      <h2>The color of the spinner is randomly determined!</h2>      
+      <div class="row-2">      
+      <h1>GOOOOOD Morning</h1>
       <?php
-        function PickAColor(){
+        function RandomNum(){
             $x = rand(0,255);
             return $x;
         }
-        $v1 = PickAColor();
-        $v2 = PickAColor();
-        $v3 = PickAColor();
+        $v1 = RandomNum();
+        $v2 = RandomNum();
+        $v3 = RandomNum();
+        echo"<h2> Here, have a few random numbers: " . $v1 . ", " . $v2 . ", " . $v3 "<h2/>"    
       ?>
-      <div class="row-2">
-      <h1 style = "color:rgb(<?php PickAColor(); ?>, <?php PickAColor(); ?>, <?php PickAColor(); ?>);">GOOOOOD Morning</h1>
-        <div class="spinner-border" style="color:rgb(<?PickAColor();?>,<?PickAColor();?>,<?PickAColor();?>)" role="status">
+      
+        <div class="spinner-border text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
         <div class="spinner-border text-secondary" role="status">
