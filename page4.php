@@ -11,9 +11,17 @@
     <?php include'header.php'; ?>
     <div class="container-fluid">
       <h2>The color of the spinner is randomly determined!</h2>
-      
+      <?php
+        function PickAColor(){
+            $x = rand(0,255);
+            return $x;
+        }
+        $v1 = PickAColor();
+        $v2 = PickAColor();
+        $v3 = PickAColor();
+      ?>
       <div class="row-2">
-      <h1 style = "color:rgb( 0, 0, 0);">GOOOOOD Morning</h1>
+      <h1 style = "color:rgb(<?php global $v1; ?>, <?php global $v2; ?>, <?php global $v3; ?>);">GOOOOOD Morning</h1>
         <div class="spinner-border" style="color:rgb(<?PickAColor();?>,<?PickAColor();?>,<?PickAColor();?>)" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
