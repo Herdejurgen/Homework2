@@ -16,8 +16,8 @@
         $v1 = "857";
         $v2 = "524";
         $v3 = "254";
-        echo"<h2> Here, have a few random numbers: </h2>";
-        echo"<h2>" .  $v1 . ", " . $v2 . ", " . $v3 "</h2>";
+        echo "<h2> Here, have a few random numbers: </h2>";
+        echo "<h2>" . $v1 . ", " . $v2 . ", " . $v3 "</h2>";
       ?>
       
         <div class="spinner-border text-primary" role="status">
