@@ -12,13 +12,10 @@
     <div class="container-fluid">
       <div class="row-2">      
       <h1>GOOOOOD Morning</h1>
-      <?php
-        function RandomNum(){
-            return rand(0,255);
-        }
-        $v1 = RandomNum();
-        $v2 = RandomNum();
-        $v3 = RandomNum();
+      <?php        
+        $v1 = rand(0,255);
+        $v2 = rand(0,255);
+        $v3 = rand(0,255);
         echo"<h2> Here, have a few random numbers: </h2>"
         echo"<h2>" .  $v1 . ", " . $v2 . ", " . $v3 "</h2>"
       ?>
