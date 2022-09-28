@@ -12,6 +12,12 @@
     <div class="container-fluid">
       <div class="row-2">      
       <h1>GOOOOOD Morning</h1>
+      <?php        
+        
+        echo"<h2> Here, have a few random numbers: </h2>"
+        
+      ?>
+      
         <div class="spinner-border text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
