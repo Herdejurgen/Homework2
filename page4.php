@@ -14,8 +14,10 @@
       <h1>GOOOOOD Morning</h1>
       <?php        
         $v = 857;
+        $w = 524;
+        $x = 254;
         echo "<h2> Here, have a few random numbers: </h2>";
-        echo "<h2>" . $v . "</h2>";
+        echo "<h2>" . $v . ", " . $w . ", " . $x "</h2>";
       ?>      
         <div class="spinner-border text-primary" role="status">
           <span class="visually-hidden">Loading...</span>
