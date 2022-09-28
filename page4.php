@@ -10,7 +10,6 @@
   <body>
     <?php include'header.php'; ?>
     <div class="container-fluid">
-      <h2>The color of the spinner is randomly determined!</h2>      
       <div class="row-2">      
       <h1>GOOOOOD Morning</h1>
       <?php
@@ -21,7 +20,7 @@
         $v1 = RandomNum();
         $v2 = RandomNum();
         $v3 = RandomNum();
-        echo"<h2> Here, have a few random numbers: " . $v1 . ", " . $v2 . ", " . $v3 "<h2/>"    
+        echo"<h2> Here, have a few random numbers: " . $v1 . ", " . $v2 . ", " . $v3 "</h2>"    
       ?>
       
         <div class="spinner-border text-primary" role="status">
