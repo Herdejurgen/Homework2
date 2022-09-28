@@ -14,8 +14,7 @@
       <h1>GOOOOOD Morning</h1>
       <?php
         function RandomNum(){
-            $x = rand(0,255);
-            return $x;
+            return rand(0,255);
         }
         $v1 = RandomNum();
         $v2 = RandomNum();
