@@ -13,9 +13,9 @@
       <div class="row-2">      
       <h1>GOOOOOD Morning</h1>
       <?php        
-        $v = 857;
-        $w = 524;
-        $x = 254;
+        $v = rand(0,255);
+        $w = rand(0,255);
+        $x = rand(0,255);
         echo "<h2> Here, have a few random numbers: </h2>";
         echo "<h2>" . $v . "</h2>";
         echo "<h2>" . $w . "</h2>";
