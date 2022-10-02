@@ -20,6 +20,11 @@
         echo "<h2>" . $w . "</h2>";
         echo "<h2>" . $x . "</h2>";
       ?>
+      <form action="welcome.php" method="get">
+      First number: <input type="text" name="num1">
+      Second number: <input typer+"text" name="num2">
+      Third number: <input typer+"text" name="num3">
+      </form>
     </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
