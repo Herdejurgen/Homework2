@@ -11,7 +11,7 @@
     <div class="container-fluid">
     <h2>These are the numbers you input:</h2>
     <?php
-        echo $_GET["num1"];
+        "<h2>"echo $_GET["num1"]"</h2>"; 
         echo $_GET["num2"];
         echo $_GET["num3"];
         ?>
