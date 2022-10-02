@@ -19,7 +19,7 @@
         echo "<h2>" . $v . "</h2>";
         echo "<h2>" . $w . "</h2>";
         echo "<h2>" . $x . "</h2>";
-      
+      ?>
       <h2>Send these numbers</h2>
       <form action="formresult.php" method="post">
       First number: <input type="text" name="rand1" value="<?php echo $v;?>">
