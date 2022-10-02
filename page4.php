@@ -19,12 +19,19 @@
         echo "<h2>" . $v . "</h2>";
         echo "<h2>" . $w . "</h2>";
         echo "<h2>" . $x . "</h2>";
-      ?>
-      <h2>Put them in the form below:</h2>
+      
+      <h2>Send these numbers</h2>
+      <form action="formresult.php" method="post">
+      First number: <input type="text" name="rand1" value="<?php echo $v;?>">
+      Second number: <input type="text" name="rand2" value="<?php echo $w;?>">
+      Third number: <input type="text" name="rand3" value="<?php echo $x;?>">
+      <input type="submit">
+      </form>
+      <h2>Or send your own:</h2>
       <form action="formresult.php" method="get">
       First number: <input type="text" name="num1">
-      Second number: <input typer+"text" name="num2">
-      Third number: <input typer+"text" name="num3">
+      Second number: <input type="text" name="num2">
+      Third number: <input type="text" name="num3">
       <input type="submit">
       </form>
     </div>
