@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,18 +8,8 @@
   
   <body>
     <?php include'header.php'; ?>
-    <div class="containter-fluid">
-      <div class="col-4 offset-4">
-        <div class="card">
+    <div class="container-fluid">
 
-          <img src="https://tulanehullabaloo.com/wp-content/uploads/2020/01/frisbeeeee.png" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Ultimate Frisbee</h5>
-            <p class="card-text">I play ultimate frisbee for the OU club team, the Apes of Wrath.</p>
-          </div>
-
-        </div>
-      </div>
     </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
